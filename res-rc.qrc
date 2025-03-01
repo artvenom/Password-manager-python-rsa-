@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/edit_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/no_encryption_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/arrow_back_ios_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/check_circle_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/file_open_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/icon.svg</file>
+    <file>icons/key_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/password_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</file>
+  </qresource>
+</RCC>

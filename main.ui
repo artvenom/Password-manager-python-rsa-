@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>has_mari</class>
+ <widget class="QMainWindow" name="has_mari">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI Black</family>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #A6B1D1</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #A6B1D1</string>
+   </property>
+   <widget class="QLineEdit" name="input">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>591</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #01060F;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>171</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" columnstretch="0">
+     <item row="3" column="0">
+      <widget class="QPushButton" name="file_input">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #01060F;
+
+QPushButton {
+    background-color: #01060F; 
+}
+QPushButton:hover {
+    background-color: #A6B1D1;
+}</string>
+       </property>
+       <property name="text">
+        <string>file input</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/icon/icons/file_open_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/icons/file_open_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="password_generator">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #01060F;
+
+QPushButton {
+    background-color: #01060F; 
+}
+QPushButton:hover {
+    background-color: #A6B1D1;
+}</string>
+       </property>
+       <property name="text">
+        <string>password generator</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/icon/icons/key_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/icons/key_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="encrypt">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #01060F;
+
+QPushButton {
+    background-color: #01060F; 
+}
+QPushButton:hover {
+    background-color: #A6B1D1;
+}</string>
+       </property>
+       <property name="text">
+        <string>encrypt</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/icon/icons/password_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/icons/password_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="decrypt">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #01060F;
+
+QPushButton {
+    background-color: #01060F; 
+}
+QPushButton:hover {
+    background-color: #A6B1D1;
+}</string>
+       </property>
+       <property name="text">
+        <string>decrypt</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/icon/icons/no_encryption_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icon/icons/no_encryption_24dp_ A6B1D1_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QScrollArea" name="input_scroll">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>591</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>589</width>
+       <height>309</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="output">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #01060F;</string>
+      </property>
+      <property name="text">
+       <string> waiting for action...</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
